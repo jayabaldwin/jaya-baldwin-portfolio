@@ -1,12 +1,36 @@
+/* colour pallete */
 :root {
     --rust: #c27047d0;
     --terracotta: #EDC2A5;
     --oatmeal: #F6F4EE;
+    --ocean: #78909C;
 }
 
-h1 {
-    color: var(--rust);
+/* universal selectors */
+* {
+background-color: var(--ocean);
+}
+
+/* body */
+body {
+    margin: 0;
+    background-color: var(--ocean);
+    font-family:'Times New Roman', Times, serif;    
+    font-weight: 300;
+}
+
+/* header container of nav bar and logo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    
 }
 
 header{
 } 
+
+.logo {
+float: left;
+
+}
