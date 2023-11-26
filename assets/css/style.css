@@ -8,29 +8,15 @@
 
 /* universal selectors */
 * {
-background-color: var(--ocean);
 }
 
-/* body */
-body {
-    margin: 0;
-    background-color: var(--ocean);
-    font-family:'Times New Roman', Times, serif;    
-    font-weight: 300;
-}
-
-/* header container of nav bar and logo */
-.container {
-    width: 80%;
-    margin: 0 auto;
-
-    
-}
-
-header{
-} 
-
-.logo {
-float: left;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 5rem;
+    width: 100%;
+    border: 5px solid var(--rust)
 
 }
