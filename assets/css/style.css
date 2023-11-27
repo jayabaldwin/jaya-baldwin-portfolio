@@ -1,0 +1,86 @@
+/* colour pallete */
+:root {
+    --rust: #c27047d0;
+    --terracotta: #EDC2A5;
+    --oatmeal: #F6F4EE;
+    --ocean: #78909C;
+}
+
+/* universal selectors */
+* {
+    background-color: var(--ocean);
+}
+
+h1,
+h2 {
+    color: var(--oatmeal);
+}
+
+h1 .content {
+    margin-top: 4rem;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1.5rem;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 3px solid var(--oatmeal);
+}
+
+.logo {
+    display: flex; 
+}
+
+nav {
+    background-color: var(--rust);
+}
+
+nav ul {
+    display: flex;
+    padding-left: 2rem;
+    color: var(--oatmeal);
+}
+
+nav ul li {
+    padding-left: 2rem;
+}
+
+nav a:hover {
+    background-color: var(--oatmeal);
+    color: var(--ocean);
+    text-decoration: ;
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--oatmeal);
+}
+
+.hero {
+    display: flex;
+    /* border: 5px solid var(--rust); */
+    height: 20rem;
+    width: 100%;
+}
+
+.top-left {
+    /* border: 5px solid var(--terracotta); */
+    width: 50%;
+    background-image: url(../images/neutral-placeholder.png);
+    /* background-image:  */
+
+}
+
+.top-right {
+    /* border: 5px solid var(--terracotta); */
+    width: 50%;
+    background-color: var(--ocean);
+    opacity: 10%;
+    border-bottom: 5px solid var(--oatmeal);
+    
+}
