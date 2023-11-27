@@ -1,75 +1,19 @@
 /* colour pallete */
 :root {
-    --rust: rgba(194, 112, 71, 0.947);
+    /* --rust: #943f1ed5;
     --terracotta: #EDC2A5;
-    --oatmeal: #F6F4EE;
-    --ocean: #78909C;
+    --oatmeal: #ffffff;
+    --ocean: #45535a; */
+
+    --turquoise: #496A66;
+    --flower: #E3A68C;
+    --amber: #CC6A46;
+    --white: #ffffff;
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: serif;
     box-sizing: border-box;
-}
-
-body {
-    background-color: var(--oatmeal);
-}
-
-nav {
-    background-color: var(--rust);
-}
-
-nav ul {
-
-}
-
-nav li {
-    display: inline;
-    padding: 0px 20px;
-    float: right;
-}
-
-a {
-    text-decoration: none;
-    color: var(--oatmeal);
-}
-
-header {
-    border: 5px solid var(--terracotta);
-}
-
-.title {
-    border: 5px solid var(--terracotta);
-}
-
-.about {
-    border: 5px solid var(--terracotta);
-}
-
-.my-work {
-    border: 5px solid var(--rust);
-}
-
-.main-proj {
-    border: 5px solid var(--terracotta);
-}
-
-.other-proj {
-    border: 5px solid var(--terracotta);
-}
-
-.contact {
-    border: 5px solid var(--ocean);
-}
-
-.bottom-left {
-    border: 5px solid var(--terracotta);
-}
-
-.bottom-right {
-    border: 5px solid var(--terracotta);
-
 }
 
