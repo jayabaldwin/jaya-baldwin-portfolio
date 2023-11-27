@@ -11,9 +11,23 @@
     --white: #ffffff;
 }
 
-*{
-    margin: 0;
+* { 
+    font-family: 'Inter Tight', sans-serif;
     padding: 0;
     box-sizing: border-box;
+} 
+
+h1 {
+    font-family: 'Unna', serif;
+
+}
+
+h2 {
+    font-family: 'Unna', serif;
+}
+
+.fancy {
+    font-family: 'Unna', serif;
+    font-style: italic;
 }
 
