@@ -15,6 +15,11 @@ h1,
 h2 {
     color: var(--oatmeal);
 }
+
+h1 .content {
+    margin-top: 4rem;
+}
+
 header {
     display: inline-flex;
     justify-content: space-between;
@@ -44,6 +49,13 @@ nav ul li {
     padding-left: 2rem;
 }
 
+nav a:hover {
+    background-color: var(--oatmeal);
+    color: var(--ocean);
+    text-decoration: ;
+    
+}
+
 a {
     text-decoration: none;
     color: var(--oatmeal);
@@ -60,12 +72,15 @@ a {
     /* border: 5px solid var(--terracotta); */
     width: 50%;
     background-image: url(../images/neutral-placeholder.png);
+    /* background-image:  */
+
 }
 
 .top-right {
     /* border: 5px solid var(--terracotta); */
     width: 50%;
     background-color: var(--ocean);
+    opacity: 10%;
     border-bottom: 5px solid var(--oatmeal);
     
 }
