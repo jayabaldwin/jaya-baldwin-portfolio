@@ -1,16 +1,115 @@
 /* colour pallete */
 :root {
-    /* --rust: #943f1ed5;
-    --terracotta: #EDC2A5;
-    --oatmeal: #ffffff;
-    --ocean: #45535a; */
-
-    --turquoise: #496A66;
+    --turquoise: #557976;
     --flower: #E3A68C;
     --amber: #CC6A46;
     --white: #ffffff;
-    
-    /* --ff-primary: 'Inter Tight', sans-serif;
+ 
+}
+
+* { 
+    font-family: 'Inter Tight', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+} 
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Bodoni Moda', serif;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Unna', serif;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.fancy {
+    font-size: 1.2rem;
+    font-family: 'Unna', serif;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* general styling */
+
+.hero-image {
+    padding: 3.75rem;
+
+}
+
+.hero-text {
+    text-align: center;
+    line-height: 1.2;
+    ;
+}
+
+/* need to link button in html */
+button {
+    margin-top: 3rem;
+    cursor: pointer;
+    border: 0.5rem;
+    border-radius: 1rem;
+    border-color: #6aa8a3;
+    padding: 0.5rem 1rem;
+    font-family: ;
+    font-weight: 200;
+    font-size: ;
+    color: var(--white);
+    background-color: var(--turquoise);
+    box-shadow: 0 1.25rem 1rem -1rem #6aa8a3;
+}
+
+button:hover {
+    box-shadow: inset 0px 0px 8px var(--flower), 0 0 15px var(--flower);
+    background-color: var(--amber);
+}
+
+
+.about {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  border: 1px solid 
+}
+
+.even-columns {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+body {
+    font-size: 1em;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* --ff-primary: 'Inter Tight', sans-serif;
 
     --ff-body: var(--ff-primary);
     --ff-heading: var(--ff-primary);
@@ -26,26 +125,8 @@
             --fs-300:
         }
     } */
- 
-}
 
-* { 
-    font-family: 'Inter Tight', sans-serif;
-    padding: 0;
-    box-sizing: border-box;
-} 
-
-h1 {
-    font-family: 'Bodoni Moda', serif;
-
-}
-
-h2 {
-    font-family: 'Unna', serif;
-}
-
-.fancy {
-    font-family: 'Unna', serif;
-    font-style: italic;
-}
-
+    /* --rust: #943f1ed5;
+    --terracotta: #EDC2A5;
+    --oatmeal: #ffffff;
+    --ocean: #45535a; */
