@@ -12,19 +12,24 @@
     <script src="https://kit.fontawesome.com/503423f4ed.js" crossorigin="anonymous"></script>
     
     <!-- Fonts -->
-    <style>@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&family=Unna:ital@0;1&display=swap');</style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,400&family=Inter+Tight:wght@200&family=Unna:ital@0;1&display=swap');
+      </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <!-- <h2 class="nav-header">JB</h2> -->
-            <ul id="primary-navigation" class="primary-navigation flex">
-                <li><a href="#about">Get to Know Me</a></li>
-                <li><a href="#my-work">My Work</a></li>
-                <li><a href="#contact">Lets Chat</a></li>
-            </ul>
-        </nav>
+    <header class="primary-header">
+        <div class="container">
+            <a href="#"><img src="./assets/images/Favicon.svg" alt="logo" /></a>
+
+             <nav class="primary-navigation">
+                 <ul role="list" class="nav-list">
+                    <li><a href="#about">Get to Know Me</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#contact">Lets Chat</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div class="hero-image">
@@ -43,15 +48,66 @@
         <p class="fancy">... nice to meet you.</p>
     </section>
 
-    <section class="my-work">
-        <article class="main-proj" id="my-work">
+    <section class="my-work" id="my-work">
+        <article class="container">
+            <div class="even-columns">
+                <div class="main-proj">
+                <h2>My Work</h2> 
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et consequatur quaerat sunt hic nisi facilis temporibus doloremque possimus beatae, dignissimos asperiores eveniet nam nostrum libero iure aperiam vel quam animi.</p>
+                </div>
+                <div>
+                <img src="#" alt="main project">    
+                </div>    
+            </div>
+        </div>
+
+        <article class="container">
+            <div class="multi-columns">
+                <div class="other-proj">
+                <figure><img src="#" /></figure>
+                <figure><img src="#" /></figure>
+                <figure><img src="#" /></figure>
+                </div>
+            </div>
+        </article>
+    </section>
+
+<!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="even-columns">
+                <div>
+                <h3>Contact Me</h3> 
+                </div>
+                <div>
+                    <nav class="secondary-navigation">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-phone" style="color: #c27047d0;"></i>
+                                <a href="tel:+6135883361">+61 435 883 361</a></li>
+            
+                            <li>
+                                <i class="fa-solid fa-envelope" style="color: #c27047d0;"></i>
+                                <a href="tel:+6135883361">jayastarrbaldwin@gmail.com</a></li>
+                        </ul>
+                    </nav>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!--        
+
+    <article class="main-proj" id="my-work">
             <div class="proj-1">
                 <h2>My Work</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quo! Veritatis sequi suscipit fugiat eaque, iusto a veniam. Quidem, magnam? Dolore necessitatibus blanditiis aperiam corporis, eius odit enim. Porro, aut.</p>
             </div>
-            <figure>
-                <img src="#" />
-            </figure>
+            <figure><img src="#" /></figure>
         </article>
 
         <article class="other-proj">
@@ -59,9 +115,7 @@
                 <p></p>
             </div>
             <article class="small-proj">
-                <figure>
-                    <img src="#" />
-                </figure>
+                <figure><img src="#" /></figure>
                 <figure>
                     <img src="#" />
                 </figure>
@@ -71,7 +125,6 @@
             </article>
     </section>
 
-    <section class="contact" id="contact">
         <article class="bottom-left">
             <h3>Lets chat...</h3>
         </article>
@@ -85,12 +138,10 @@
                 <li>
                     <i class="fa-solid fa-envelope" style="color: #c27047d0;"></i>
                     <a href="tel:+6135883361">jayastarrbaldwin@gmail.com</a></li>
-            </ul>
-        </article>
-    </section>
+            </ul> -->
+        <!-- </article>
+   -->
 </main>
-
-
 </body>
 
 
