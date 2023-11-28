@@ -11,19 +11,55 @@
 * { 
     font-family: 'Inter Tight', sans-serif;
     padding: 0;
+    margin-top: 0;
     box-sizing: border-box;
 } 
 
 /* header, inclusive of nav bar */
 header {
-    position: fixed;
     background-color: var(--flower);
-    top: 0px;
-    height: 5rem;
+    text-align: center;
+    position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
-.nav-list {
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--flower);
+    padding: 1rem;
+ }
+
+ nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--white);
+ }
+
+input[type="checkbox"] {
+    appearance: none;
+}
+
+label {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+
+
+/* .nav-list {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -34,7 +70,7 @@ header {
     text-decoration: none;
     color: var(--amber);
     font-weight: bold;
-}
+} */
 
 /* header styles */
 h1 {
@@ -54,9 +90,9 @@ h3 {
 
 /* hero section, with image, text and button*/
 .hero-image {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     padding: 4rem;
-    background-image: url(../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+    background-image: url(../images/scott-webb-R5fIqR8nPu0-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -120,13 +156,21 @@ main {
 }
 
 .even-columns {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
 }
 
+.main-proj {
 
+}
 
+.other-proj {
+    display: flex;
+}
 
+/* media queries */
+
+/* nav bar */
 
 
 

@@ -44,7 +44,7 @@ ul {
 }
 
 /* Removes animations and transitions */
-@media (prefers-reduced-motion: reduuce) {
+@media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
   }
