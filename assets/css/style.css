@@ -110,9 +110,16 @@ p {
     line-height: 1.2;
 }
 
-.hero-img {
+.me {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    max-width: 50%;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 
 button {
