@@ -16,7 +16,7 @@ This portfolio is designed to be continually updated over the duration of this c
 
 ## Criteria
 - Upon loading this portfolio, I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-- The UI scrolls to the corresponding scetion upon clicking the links in the navigation 
+- The UI scrolls to the corresponding section upon clicking the links in the navigation 
 - The UI scrolls to a section with titled images of the developer's applications
 - The first application's image should be larger in size than the others
 - The images of the applications link to that deployed application
@@ -65,3 +65,4 @@ TODO: List what specific 'user problems' that this application solves. -->
 - Responsive navigation bar tutorial for smaller devices: [Coding Artist](https://www.youtube.com/watch?v=qKqLMlBKHlE)
 - General inspiration and referncing for CSS overall: [Kevin Powell](https://www.youtube.com/@KevinPowell)
 - Structure of README.md file: [GithubGist](https://gist.github.com/manavm1990/6b4c3f51a1cc7ec2fa6c3309205be0f7#file-readme-md)
+- Assistance with flexboxes from my tutor Anastasia Warren
