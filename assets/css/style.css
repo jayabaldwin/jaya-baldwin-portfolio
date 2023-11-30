@@ -258,7 +258,7 @@ main {
 }
 
 
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
 
     /* targeting navbar to be responsive on tablets and phones */
     label {
