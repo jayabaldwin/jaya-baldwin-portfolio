@@ -117,7 +117,7 @@ p {
     line-height: 1.2;
 }
 
-.me {
+.profile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,15 +157,12 @@ main {
     margin: 50px auto;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid red; */
     padding: 20px;
-
 }
 
 .main-row {
     display: flex;
     flex-direction: row;
-    /* border: 2px solid blue; */
     padding: 20px;
     width: 100%;
 }
@@ -220,6 +217,7 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* footer */
 .footer-row {
     display: flex;
     flex-direction: row;
@@ -290,5 +288,16 @@ main {
     
     nav ul a:hover {
         line-height: 20px;
+    }
+
+    /* titles for 'about' and 'my work' section */
+    .main-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-headline {
+        border: none;
+        align-items: center;
     }
 }
