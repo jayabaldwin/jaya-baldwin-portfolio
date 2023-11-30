@@ -38,6 +38,8 @@ My responsivity skills have also improved (from nothing, so thats not hard) and 
 Main takeaway from this: it's all columns and rows, if you look hard enough!
 
 ### Screenshots
+View my portfolio [here](https://jayabaldwin.github.io/jaya-baldwin-portfolio/)
+
 #### Desktop View
 ![Desktop View](./assets/screenshots/desktop-view.jpeg)
 
