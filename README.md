@@ -76,5 +76,3 @@ TODO: List what specific 'user problems' that this application solves. -->
 - General inspiration and referncing for CSS overall: [Kevin Powell](https://www.youtube.com/@KevinPowell)
 - Structure of README.md file: [GithubGist](https://gist.github.com/manavm1990/6b4c3f51a1cc7ec2fa6c3309205be0f7#file-readme-md)
 - Assistance with flexboxes from my tutor Anastasia Warren
-
-Thank you
